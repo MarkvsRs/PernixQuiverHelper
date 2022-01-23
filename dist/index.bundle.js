@@ -14843,9 +14843,7 @@ function readChatbox() {
     }
 }
 jquery__WEBPACK_IMPORTED_MODULE_2__(document).ready(function () {
-    // Settings
-    console.log("test");
-    console.log(jquery__WEBPACK_IMPORTED_MODULE_2__(this).val());
+    // Settings	 
     jquery__WEBPACK_IMPORTED_MODULE_2__(".chat").change(function () {
         chatReader.pos.mainbox = chatReader.pos.boxes[jquery__WEBPACK_IMPORTED_MODULE_2__(this).val()];
         showSelectedChat(chatReader.pos);

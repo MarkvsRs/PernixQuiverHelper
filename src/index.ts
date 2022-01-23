@@ -112,10 +112,7 @@ function showSelectedChat(chat) {
 }
 
 $(document).ready(function() {
-	 // Settings
-	 console.log("test")
-	 console.log($(this).val())
-	 
+	 // Settings	 
 	 $(".chat").change(function () {
 		chatReader.pos.mainbox = chatReader.pos.boxes[$(this).val() as string];
 		showSelectedChat(chatReader.pos);
