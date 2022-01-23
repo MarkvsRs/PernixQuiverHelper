@@ -71,6 +71,8 @@ let findChat = setInterval(function () {
   }
 }, 50);
 
+
+
 function showSelectedChat(chat) {
 	//Attempt to show a temporary rectangle around the chatbox.  skip if overlay is not enabled.
 	try {

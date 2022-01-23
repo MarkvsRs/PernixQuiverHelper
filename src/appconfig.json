@@ -1,9 +1,9 @@
 {
-	"appName": "example app",
-	"description": "minimal alt1 webpack/ts example test app",
+	"appName": "Pernix Quiver Helper",
+	"description": "Pernix Quiver Helper, since Jamflex decided to NOT put this on your buff bar. Displays what bolts are currently equipped.",
 	"appUrl": "./index.html",
 	"configUrl": "./appconfig.json",
-	"iconUrl": "",
+	"iconUrl": "./Images/favicon.png",
 	"defaultWidth": 150,
 	"defaultHeight": 150,
 	"minWidth": 102,

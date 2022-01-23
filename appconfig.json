@@ -3,7 +3,7 @@
 	"description": "Pernix Quiver Helper, since Jamflex decided to NOT put this on your buff bar. Displays what bolts are currently equipped.",
 	"appUrl": "./index.html",
 	"configUrl": "./appconfig.json",
-	"iconUrl": "./assets/favicon.png",
+	"iconUrl": "./Images/favicon.png",
 	"defaultWidth": 345,
 	"defaultHeight": 406,
 	"minWidth": 345,
