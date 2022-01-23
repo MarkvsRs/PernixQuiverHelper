@@ -1,0 +1,16 @@
+{
+	"appName": "example app",
+	"description": "minimal alt1 webpack/ts example test app",
+	"appUrl": "./index.html",
+	"configUrl": "./appconfig.json",
+	"iconUrl": "",
+	"defaultWidth": 150,
+	"defaultHeight": 150,
+	"minWidth": 102,
+	"minHeight": 102,
+	"maxWidth": 1000,
+	"maxHeight": 1000,
+	"requestHandlers": [ ],
+	"activators": [	],
+	"permissions": "pixel,gamestate,overlay"
+}
