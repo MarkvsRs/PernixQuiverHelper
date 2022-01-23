@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<body>
+		<div id="output"></div>
+		<script src="./index.bundle.js"></script>
+		
+		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/nis.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        
+
+		<script src="https://www.unpkg.com/@alt1/base/dist/index.bundle.js"></script>
+		<script src="https://www.unpkg.com/@alt1/ocr/dist/index.bundle.js"></script>
+		<script src="https://www.unpkg.com/@alt1/chatbox/dist/index.bundle.js"></script>
+	
+	</head>
+	
+  
+<body class="nis">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="settingsButton" title="Settings" type="button" class="nissmallimagebutton menubutton float-right" data-toggle="modal" data-target="#settings"></div>
+            <div id="infoButton" title="Information" type="button" class="nissmallimagebutton menubutton float-right" data-toggle="modal" data-target="#info"></div>
+            <div id="refreshButton" title="Refresh" type="button" class="nissmallimagebutton menubutton float-right" data-toggle="modal" data-target="#refresh" onClick="window.location.reload();"></div>
+            
+        </div>
+          
+          </div>
+          <div class="row">
+            <div class="col">
+                <!-- <button class="tracker nisbutton">
+                    Start
+                </button> -->
+                <img id="HTMLBoltImage" src='./images/None.PNG'width = "100%">
+            </div>
+        </div>
+      </div>
+
+     <!-- Settings Modal -->
+  <div class="modal fade nis" tabindex="-1" id="settings" aria-labelledby="settingsLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="settingsLabel"><b>Settings</b></h6>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col" title="Changes which chatwindow is read">
+              <p>Select Chat</p>
+            </div>
+            <div class="col">
+              <select class="chat" style="width:102px;">
+                <option value="">Select Chat</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+    
+     <!-- Info Modal -->
+  <div class="modal fade nis" tabindex="-1" id="info" aria-labelledby="infoLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="infoLabel"><b>Information</b></h6>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+            <p>Feel free to shrink the window down as much as you can (alt1 wont go any smaller than the minimum I've set)</p>
+            <p>I made this helper as Jagex havent yet bothered to add the ammo type to the buff bar. Which is a no brainer imo.</p>
+            <p>Game Messages needs to be at <b>least</b> on filtered.</p>
+                <p>Ensure Chatbox is visible and scrolled down. Use the quiver ammo change so the line "Your quiver will now use the following:" is visble, the bolt type that's active should now be visible.</p>
+                <br />
+                <p>List of compatible bolts below. If you have the quiver and are using any other bolt types....then you shouldn't have bought the quiver. 
+                The list below covers <b>more</b> than what is best in slot for bolt types.</p>
+                <p>Ascendri                 </p>
+                <p>Ascension                </p>
+                <p>Blight                   </p>
+                <p>Diamond bakriminel       </p>
+                <p>Dragonstone bakriminel   </p>
+                <p>Emerald bakriminel       </p>
+                <p>Hydrix bakriminel        </p>
+                <p>Jade bakriminel          </p>
+                <p>Onyx bakriminel          </p>
+                <p>Opal bakriminel          </p>
+                <p>Pearl bakriminel         </p>
+                <p>Red_topaz bakriminel     </p>
+                <p>Ruby bakriminel          </p>
+                <p>Sapphire bakriminel      </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+   
+</body>
+</html>
